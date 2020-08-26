@@ -1,0 +1,137 @@
+@media all and (max-width: 968px){
+    .red {
+        display: none;
+    }
+
+    header {
+        height: 55px;
+    }
+
+    .ancholetra {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        width: 100%;
+        height: 35px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo p a {
+        width: 100%;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .letra h1 {
+        font-size: 50px;
+    }
+
+    .letra p {
+        font-size: 15px;
+    }
+
+    #particles-js {
+        height: 500px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 7px;
+    }
+
+    .div3 {
+        width: 100%;
+    }
+
+    .tabla4 {
+        width: 100%;
+    }
+
+    .tablaxd {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 868px) {
+    .red {
+        display: none;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    .ancholetra {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        width: 100%;
+        height: 35px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo p a {
+        width: 100%;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .logo p a img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .letra h1 {
+        font-size: 50px;
+    }
+
+    .letra p {
+        font-size: 15px;
+    }
+
+    #particles-js {
+        height: 500px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 10px;
+    }
+
+    .div3 {
+        width: 100%;
+    }
+
+    .tabla4 {
+        width: 100%;
+    }
+
+    .contratar-a {
+        width: 100%;
+    }
+
+}
+
+
