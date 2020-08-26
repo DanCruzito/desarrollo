@@ -1,0 +1,27 @@
+.banner1{
+	width: 100%;
+	background-color: #090A09;
+	clear: both;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	box-sizing: border-box;
+	transition: 0.4s;
+}
+.banner1:hover{
+	background:#54D907;
+	transition: 0.4s;
+}
+.banner1 h3{
+	color: #FFFFFF;
+	font-size: 30px;
+}
+.banner1 a{
+	text-decoration: none;
+	margin-left: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-bottom: 2px solid #FFFFFF;
+}

@@ -1,0 +1,53 @@
+/*img fondo*/
+#particles-js {
+    background: url(../img/anigif.gif);
+    /*background: #7B7979;*/
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    width: 100%;
+}
+
+/*fin img fondo*/
+
+/*letras centro*/
+.ancholetra {
+    top: 200px;
+    position: absolute;
+    width: 50%;
+    /*background: rgba(0,0,0,.6);*/
+    text-align: center;
+    z-index: 1;
+}
+
+.letra {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.letra h1 {
+    color: #54D907;
+    text-shadow: 4px 5px 8px #000000;
+    font-family: verdana;
+    font-size: 50px;
+}
+
+.letra p {
+    text-shadow: 4px 5px 8px #000000;
+    color: #fff;
+    font-size: 20px;
+    font-family: verdana;
+    padding-top: 50px;
+}
+
+/*fin letra centro*/
+/*slider*/
+#slider {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 800px;
+    border-bottom: 10px groove #54D907;
+}
+
+/*fin slider*/

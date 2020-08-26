@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+}
+
+/*cabecera*/
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, .2);
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+}
+
+.ancho {
+    width: 80%;
+    height: 70px;
+    /*background: #4B529A;*/
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+    height: 70px;
+    /*background:#AAACC9;*/
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /*contenedor encaja*/
+}
+
+.logo p a {
+    color: #FFFFFF;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: relay;
+}
+
+nav {
+    width: 70%;
+    height: 70px;
+    /*background: #279AC5;*/
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: relay;
+}
+
+nav ul li a:hover {
+    background: linear-gradient(to bottom, transparent, #54D907);
+    padding-top: 25px;
+    padding-bottom: 28px;
+    color: #fff;
+}
+
+/*fuente*/
+@font-face {
+    font-family: relay;
+    src: url(../fuentes/OpenSans-Regular.ttf);
+}
+
+/*finfuente*/
+
+/*fin cabecera*/
+.appWhatsapp{
+  position: fixed;
+  right: 26px;
+  bottom: 100px;
+  width: 60px;
+  z-index: 1000;
+}
+.appWhatsapp img{
+ width: 100%;
+ height: auto;
+}
